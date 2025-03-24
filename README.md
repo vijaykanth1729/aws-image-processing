@@ -8,8 +8,12 @@ This project is an AWS Lambda function that processes images from an S3 bucket u
 - terraform/ - Terraform code for AWS infrastructure
 
 ## Deployment Steps
-1. Install dependencies:
-   ```sh
-   pip install -r requirements.txt -t .
-   zip -r lambda_function.zip ./*
+
+Next Steps
+1) Ensure lambda.zip is available before applying Terraform
+      **zip lambda.zip lambda_function.py**
+
+2) Deploy with Terraform
+         **terraform init
+         terraform apply -auto-approve**
 
