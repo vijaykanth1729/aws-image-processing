@@ -1,3 +1,5 @@
+# I can variabalize some of the hard coded values here, just for simplicity adding them directly here. 
+
 provider "aws" {
   region = "us-east-1"
 }
